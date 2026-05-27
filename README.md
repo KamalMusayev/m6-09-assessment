@@ -1,9 +1,10 @@
-# m6-09 — Cat Detection v2
+# m6-09 — YOLO26 Cat Detector Deployment
 
-Final assessment for Unit 6: improved YOLO26 cat detector, exported to ONNX, and shipped as a Docker image with a fixed CLI.
+This repository contains my final Unit 6 assessment work. The project focuses on improving a YOLO26-based cat detector, exporting the selected model to ONNX, and packaging the final inference pipeline inside a Docker container.
 
-See `m6-09-assessment.ipynb` for the training and ONNX export work.  
-See `container/` for the Docker inference source.
+The notebook `m6-09-assessment.ipynb` includes the model improvement experiments, comparison results, final model selection, and ONNX validation.
+
+The `container/` directory contains the deployable inference source code, including the CLI, ONNX detector logic, Dockerfile, student metadata, and exported model.
 
 ## Image for leaderboard
 
