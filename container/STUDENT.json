@@ -1,0 +1,19 @@
+{
+  "first_name": "Kamal",
+  "last_name": "Musayev",
+  "team": "kamal-musayev",
+  "model": {
+    "framework": "yolo26",
+    "variant": "yolo26n",
+    "imgsz": 640,
+    "epochs_total": 60,
+    "tricks": [
+      "hard_negatives",
+      "transfer_learning_from_week1",
+      "low_lr_finetuning",
+      "adamw",
+      "early_stopping"
+    ]
+  },
+  "notes": "Final YOLO26n model selected after test-set comparison and exported to ONNX for containerized inference."
+}

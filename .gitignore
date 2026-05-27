@@ -1,0 +1,12 @@
+.ipynb_checkpoints/
+data/
+runs/
+docker_test/
+final_model/
+
+*.pt
+data.yaml
+data_v2.yaml
+
+m6-09-assessment_documented.ipynb
+m6-09-assessment_final_reference.ipynb
