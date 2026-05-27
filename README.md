@@ -1,3 +1,19 @@
+# m6-09 — Cat Detection v2
+
+Final assessment for Unit 6: improved YOLO26 cat detector, exported to ONNX, and shipped as a Docker image with a fixed CLI.
+
+See `m6-09-assessment.ipynb` for the training and ONNX export work.  
+See `container/` for the Docker inference source.
+
+## Image for leaderboard
+
+docker pull kamalmusayev/cat-detector:final
+
+Image: kamalmusayev/cat-detector:final  
+Student: Kamal Musayev
+
+---
+
 ![logo_ironhack_blue 7](https://user-images.githubusercontent.com/23629340/40541063-a07a0a8a-601a-11e8-91b5-2f13e4e6b441.png)
 
 # Final Assessment | Cat Detection v2 — Improve, Export to ONNX, Containerise & Compete
